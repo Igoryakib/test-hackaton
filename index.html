@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./css/styles.css" />
+      <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon" />
+      <title>test hakaton</title>
+   </head>
+   <body>
+      <div class="wrapper__header__trello">
+         <header class="trello__header">
+            <div class="header__content">
+               <img class="content__img" src="./img/logo.jpg" alt="logo_team" />
+               <h1 class="content__title">trello by HOPE team</h1>
+            </div>
+         </header>
+         <main class="main">
+            <section class="columns">
+               <div class="column">
+		   <div class="column__wrapper">
+			  <input type="text" placeholder="Title of column..." value="To do" class="column__title save-text"></input>
+			  <div class="column__wrapper-cards" data-index="1">
+				 <div class="column__plus-wrapper">
+					<p class="column__wrapper--plus">+</p>
+				 </div>
+			  </div>
+		   </div>
+		</div>
+		<div class="column">
+		   <div class="column__wrapper">
+			<input type="text" placeholder="Title of column..." value="In progress" class="column__title save-text"></input>
+			  <div class="column__wrapper-cards" data-index="2">
+				 <div class="column__plus-wrapper">
+					<p class="column__wrapper--plus">+</p>
+				 </div>
+			  </div>
+		   </div>
+		</div>
+		<div class="column">
+		   <div class="column__wrapper">
+			<input type="text" placeholder="Title of column..." value="Done" class="column__title save-text"></input>
+			  <div class="column__wrapper-cards" data-index="3">
+				 <div class="column__plus-wrapper">
+					<p class="column__wrapper--plus">+</p>
+				 </div>
+			  </div>
+		   </div>
+		</div>
+            </section>
+            <div class="column__plus-wrapper-right">
+                  <p class="column__wrapper-plus-right">+</p>
+               </div>
+         </main>
+      </div>
+
+      <script src="./js/script.js" type="module"></script>
+   </body>
+</html>
